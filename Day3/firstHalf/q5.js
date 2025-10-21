@@ -17,4 +17,4 @@ function toSnakeCase(str) {
   console.log(arr.join("").toLowerCase());
 }
 
-toSnakeCase("myFunction");
+toSnakeCase("myFunctionApple");

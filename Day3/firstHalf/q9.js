@@ -14,6 +14,6 @@ function isAnagram(word1, word2) {
   return true;
 }
 
-console.log(isAnagram("silent", "listen"));
+console.log(isAnagram("silent", "Listen"));
 console.log(isAnagram("restful", "fluster"));
 console.log(isAnagram("hello", "world"));

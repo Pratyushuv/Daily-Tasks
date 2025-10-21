@@ -7,3 +7,5 @@ function isValidNumber(num) {
 
 isValidNumber(290343);
 isValidNumber(10 ** 1000);
+
+//net

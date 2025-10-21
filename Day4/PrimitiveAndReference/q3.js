@@ -4,4 +4,4 @@ const obj = {
 
 const newObj = JSON.parse(JSON.stringify(obj));
 
-console.log(newObj);
+console.log(newObj); //obj and newObj refernce the same object
