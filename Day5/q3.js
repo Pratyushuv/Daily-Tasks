@@ -1,4 +1,4 @@
-// 8. Write a program that finds the missing number in an array containing consecutive integers from 1 to n, with one number missing.
+// Find the Missing Number
 
 function missingNumber(num) {
   const n = num.length;

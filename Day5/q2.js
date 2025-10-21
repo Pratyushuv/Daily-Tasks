@@ -1,3 +1,5 @@
+// Word Frequency Counter
+
 function wordFrequency(str) {
   const obj = {};
   const letters = str.split("");

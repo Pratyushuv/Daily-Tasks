@@ -1,3 +1,5 @@
+// Create a small Employee Manager CLI app using Node.js.
+
 const readline = require("readline");
 let emp = [];
 const rl = readline.createInterface({

@@ -1,3 +1,5 @@
+//  Rearrange Numbers by Parity
+
 function parity(arr) {
   let oddArr = [];
   let evenArr = [];

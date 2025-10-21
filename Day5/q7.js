@@ -1,3 +1,5 @@
+// Flatten Nested Arrays
+
 let arr = [];
 function flatArray(num) {
   if (typeof num === "number") return num;
