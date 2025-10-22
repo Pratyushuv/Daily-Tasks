@@ -1,0 +1,10 @@
+const box = document.querySelector(".box");
+
+const num1 = Math.floor(Math.random() * 255);
+const num2 = Math.floor(Math.random() * 255);
+const num3 = Math.floor(Math.random() * 255);
+
+box.addEventListener("dblclick", () => {
+  console.log(num1, num2, num3);
+  box.style.border = `5px solid rgb(${num1}, ${num2}, ${num3})`;
+});

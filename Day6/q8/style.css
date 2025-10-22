@@ -1,0 +1,43 @@
+.like {
+  fill: rgb(148, 120, 120);
+}
+
+.liked {
+  fill: red;
+}
+
+.card {
+  width: 100%;
+  max-width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: slategrey;
+  background-color: aliceblue;
+}
+
+.icon {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-color: beige;
+}
+
+img {
+  border-radius: 10px;
+}

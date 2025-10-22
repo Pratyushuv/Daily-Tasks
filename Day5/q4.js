@@ -1,4 +1,5 @@
 //pattern
+
 const letter = "A";
 let str = "";
 
