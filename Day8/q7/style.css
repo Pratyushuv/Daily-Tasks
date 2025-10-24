@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(41, 32, 32);
+}
+
+.con {
+  background-color: rgb(114, 111, 111);
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: white;
+  border: 5px solid black;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  /* font-variant: small-caps; */
+  color: rgb(73, 69, 69);
+  font-style: italic;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  font-variant: small-caps;
+  color: rgb(73, 72, 72);
+}
+
+.user {
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  font-variant: small-caps;
+  color: rgb(24, 16, 16);
+  font-style: italic;
+  font-weight: bolder;
+}
