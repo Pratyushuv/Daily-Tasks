@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(170, 190, 190);
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  max-height: 300px;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 80px;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.progress {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  max-width: 1195px;
+
+  border: 10px solid rgb(0, 0, 0);
+  /* margin: 0 auto; */
+  margin-top: 40px;
+  margin-left: 150px;
+  border-radius: 20px;
+}
+
+.bar {
+  width: 100%;
+
+  display: flex;
+  /* justify-content: center; */
+  height: 51px;
+  max-width: 0px;
+  background-color: rgb(6, 87, 14);
+
+  /* margin: 0 auto; */
+
+  margin-left: 150px;
+  border-radius: 10px;
+  position: relative;
+  bottom: 60px;
+  left: 10px;
+}
